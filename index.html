@@ -44,6 +44,10 @@
 </head>
 
 <body>
+
+
+
+
     <header class="header-area header-transparent-bar sticky-bar">
         <div class="container">
             <div class="row align-items-center">
@@ -64,11 +68,12 @@
                                 </li>
                                 <li><a href="#service">SERVICE</a>
                                 </li>
-                                <li><a href="#project">PROJECT</a>
+                                <li><a href="#">PROJECT</a>
                                 </li>
                                 <li><a href="#about">ABOUT US</a>
                                 </li>
-                                <li><a href="#gallery">GALLERY</a>
+                                
+                                <li><a href="#project">GALLERY</a>
                                 </li>
                                 <li><a href="#contact">CONTACT US</a></li>
                             </ul>
@@ -78,7 +83,8 @@
                 <div class="col-lg-3 col-md-6 col-8">
                     <div class="header-action-wrap">
                         <div class="header-action-style">
-                            <a href="#" class="btn btn-primary btn-hover-dark animated header-aside-button">Quick
+                            <a href="#" class="btn btn-primary btn-hover-dark animated " data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"> Quick
                                 Contact <i class="fa-solid fa-circle-arrow-right"></i></a>
                         </div>
                     </div>
@@ -102,11 +108,11 @@
                                     </li>
                                     <li class="menu-item-has-children"><a href="#service">SERVICE</a>
                                     </li>
-                                    <li class="menu-item-has-children"><a href="#project">PROJECT</a>
+                                    <li class="menu-item-has-children "><a href="#">PROJECT</a>
                                     </li>
                                     <li class="menu-item-has-children"><a href="#about">ABOUT US</a>
                                     </li>
-                                    <li class="menu-item-has-children "><a href="#gallery"> GALLERY</a>
+                                    <li class="menu-item-has-children"><a href="#project">GALLERY</a>
                                     </li>
                                     <li><a href="#contact">CONTACT US </a></li>
                                 </ul>
@@ -121,8 +127,8 @@
                         <ul>
                             <li><a href="#about">About Us</a></li>
                             <li><a href="#contact">Help Center</a></li>
-                            <li><a href="#project">Project</a></li>
-                            <li><a href="#gallery"> GALLERY</a></li>
+                            <li><a href="#"> PROJECT</a></li>
+                            <li><a href="#project">GALLERY</a></li>
                             <li><a href="#service">Service</a></li>
                         </ul>
                     </nav>
@@ -147,134 +153,15 @@
                     </ul>
                 </div>
                 <div class="social-icon-style mb-5">
-                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                    <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                    <a class="behance" href="#"><i class="fa fa-behance"></i></a>
-                </div>
-                <div class="copyright">
-                    <p>Copyright ©2023 All rights reserved | Made with <i class="fa fa-heart"></i> by <a
-                            href="https://amarjeet0007.github.io/akdigital/"> Amarjeet </a>.</p>
+
+                    <a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                    <a class="google-plus" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
                 </div>
             </div>
         </div>
     </div>
-    <!----popup aria----------------
-    <div class="container register">
-        <div class="row">
-            <div class="col-md-3 register-left">
-                <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
-                <h3>Welcome</h3>
-                <p>You are 30 seconds away from earning your own money!</p>
-                <input type="submit" name="" value="Login"/><br/>
-            </div>
-            <div class="col-md-9 register-right">
-                <ul class="nav nav-tabs nav-justified" id="myTab" role="tablist">
-                    <li class="nav-item">
-                        <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Employee</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Hirer</a>
-                    </li>
-                </ul>
-                <div class="tab-content" id="myTabContent">
-                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                        <h3 class="register-heading">Apply as a Employee</h3>
-                        <div class="row register-form">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control"  placeholder="Confirm Password *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <div class="maxl">
-                                        <label class="radio inline"> 
-                                            <input type="radio" name="gender" value="male" checked>
-                                            <span> Male </span> 
-                                        </label>
-                                        <label class="radio inline"> 
-                                            <input type="radio" name="gender" value="female">
-                                            <span>Female </span> 
-                                        </label>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" minlength="10" maxlength="10" name="txtEmpPhone" class="form-control" placeholder="Your Phone *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-                                        <option>What is your Birthdate?</option>
-                                        <option>What is Your old Phone Number</option>
-                                        <option>What is your Pet Name?</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Enter Your Answer *" value="" />
-                                </div>
-                                <input type="submit" class="btnRegister"  value="Register"/>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="tab-pane fade show" id="profile" role="tabpanel" aria-labelledby="profile-tab">
-                        <h3  class="register-heading">Apply as a Hirer</h3>
-                        <div class="row register-form">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="First Name *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Last Name *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Email *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" maxlength="10" minlength="10" class="form-control" placeholder="Phone *" value="" />
-                                </div>
 
-
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Password *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <input type="password" class="form-control" placeholder="Confirm Password *" value="" />
-                                </div>
-                                <div class="form-group">
-                                    <select class="form-control">
-                                        <option class="hidden"  selected disabled>Please select your Sequrity Question</option>
-                                        <option>What is your Birthdate?</option>
-                                        <option>What is Your old Phone Number</option>
-                                        <option>What is your Pet Name?</option>
-                                    </select>
-                                </div>
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="`Answer *" value="" />
-                                </div>
-                                <input type="submit" class="btnRegister"  value="Register"/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>---------->
     <!-- slider area -->
     <div class="hero-area">
         <div class="hero-slider-active swiper">
@@ -286,7 +173,8 @@
                             <div class="hero-content-1 slider-animated-1 text-center layer" data-depth="-0.7">
                                 <h1 class="title animated">FINAL STEP INTERIOR DESIGN</h1>
                                 <p class="animated">Make Your Dream Home </p>
-                                <a href="project.html" class="btn btn-primary btn-hover-dark animated">VIEW PROJECT</a>
+                                <a href="#project" class="btn btn-pro btn-hover-dark animated header-aside-button">VIEW
+                                    PROJECT</a>
                             </div>
                         </div>
                     </div>
@@ -298,7 +186,7 @@
                             <div class="hero-content-1 slider-animated-1 text-center layer" data-depth="-0.7">
                                 <h1 class="title animated">FINAL STEP INTERIOR DESIGN</h1>
                                 <p class="animated">Make Your Dream Home </p>
-                                <a href="project.html" class="btn btn-primary btn-hover-dark animated">VIEW PROJECT</a>
+                                <a href="#project" class="btn btn-pro btn-hover-dark animated">VIEW PROJECT</a>
                             </div>
                         </div>
                     </div>
@@ -309,19 +197,25 @@
         </div>
     </div>
     <!-- About area -->
-    <div id="about" class="section section-padding">
+    <div id="about" class="new-padding  ">
         <div class="container">
             <div class="row row-cols-lg-2 row-cols-1 mb-n6">
                 <div class="col align-self-center mb-6">
                     <div class="about-content">
                         <h2 class="title">Welcome to <span>FINAL STEP INTERIOR DESIGN</span></h2>
                         <p>Our mission is to provide the world’s finest top-quality interior designing services in
-                            Delhi. Our Interior Designers in Delhi can promote an atmosphere, a mood, and a sense of a
-                            lifestyle in your space. At Alluring décor, we always begins with an in-depth space planning
-                            phase that considers all of our customers’ core requirements and concerns. We study ideas
-                            and general concepts to help you determine your venture’s parameters and select the optimal
-                            method for achieving the desired goals. After a concept has been developed, our team creates
-                            the plan for your region. Detailed drawings contain plans for luxury home interiors, decks,
+                            Delhi. Our Interior Designers in Delhi can promote an atmosphere, a mood, and a sense of
+                            a
+                            lifestyle in your space. At Alluring décor, we always begins with an in-depth space
+                            planning
+                            phase that considers all of our customers’ core requirements and concerns. We study
+                            ideas
+                            and general concepts to help you determine your venture’s parameters and select the
+                            optimal
+                            method for achieving the desired goals. After a concept has been developed, our team
+                            creates
+                            the plan for your region. Detailed drawings contain plans for luxury home interiors,
+                            decks,
                             open terraces, walls, terrace gardens, and illustrations to aid comprehension</p>
                         <h3 class="sub-title">Completed Projects in <span>169 countries</span></h3>
                     </div>
@@ -345,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                    <a href="about-us.html" class="btn btn-dark btn-hover-primary">LEARN MORE</a>
+                    <!-- <a href="about-us.html" class="btn btn-pro btn-hover-primary header-aside-button">LEARN MORE</a> -->
                 </div>
                 <div class="col mb-6">
                     <div class="about-banner">
@@ -355,17 +249,51 @@
             </div>
         </div>
     </div>
+
+    <!-- Working Process area -->
+    <div class="section section-padding bg-img overly-style-1 opacity-point-7"
+        style="background-image:url(assets/img/bg-banner.jpg)">
+        <div class="container">
+            <div class="section-title text-center mb-lg-9 mb-md-7 mb-5">
+                <h2 class="title white">Our Working<span> Process</span></h2>
+                <p class="white">Check out Our work to get an idea , connect with us to discuss and get a free
+                    consultation about your project
+                </p>
+            </div>
+            <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
+                <div class="col mb-6">
+                    <div class="working-process text-center">
+                        <i class="dlicon users-2_b-meeting"></i>
+                        <h4 class="title">Meet The Client</h4>
+                    </div>
+                </div>
+                <div class="col mb-6">
+                    <div class="working-process text-center">
+                        <i class="dlicon business_bulb-62"></i>
+                        <h4 class="title">Make Ideas</h4>
+                    </div>
+                </div>
+                <div class="col mb-6">
+                    <div class="working-process text-center">
+                        <i class="dlicon business_hierarchy-54"></i>
+                        <h4 class="title">Development</h4>
+                    </div>
+                </div>
+                <div class="col mb-6">
+                    <div class="working-process text-center">
+                        <i class="dlicon business_building"></i>
+                        <h4 class="title">Test & Release</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Services area -->
-    <div id="service" class="section section-padding pt-0">
+    <div id="service" class="section pt-10 my-sevice">
         <div class="container">
             <div class="section-title text-center mb-lg-9 mb-md-7 mb-5">
                 <h2 class="title">Our <span>Services</span></h2>
-                <p>We are the best interior design service provider in Delhi, Gurgaon, and Noida. 200+ Completed
-                    Projects High-Quality Work 10+ Years Experience
-                    We offer comprehensive interior design services for homes, offices, commercial buildings, and
-                    complexes In Delhi/NCR, we are recognized as one of the reputed interior designing company. Our
-                    service region comprises Delhi, Noida, and Gurgaon. However, we can provide services throughout
-                    India, depending on the client’s specifications</p>
+                <p>We are the best interior design service provider in Delhi, Gurgaon, and Noida.</p>
             </div>
             <div class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
                 <div class="col mb-6">
@@ -455,51 +383,103 @@
             </div>
         </div>
     </div>
-    <!-- Working Process area -->
+
+    <!-- Sevice Counter Start -->
+
     <div class="section section-padding bg-img overly-style-1 opacity-point-7"
-        style="background-image:url(assets/img/bg-banner.jpg)">
+        style="background-image:url(assets/img/bg-banner2.jpg)">
         <div class="container">
-            <div class="section-title text-center mb-lg-9 mb-md-7 mb-5">
-                <h2 class="title white">Our Working<span> Process</span></h2>
-                <p class="white">Check out Our work to get an idea , connect with us to discuss and get a free
-                    consultation about your project
-                </p>
-            </div>
             <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n6">
-                <div class="col mb-6">
-                    <div class="working-process text-center">
-                        <i class="dlicon users-2_b-meeting"></i>
-                        <h4 class="title">Meet The Client</h4>
+                <div class="col mb-8">
+                    <div class="funfact-2 text-center">
+                        <i class="dlicon travel_bag"></i>
+                        <span class="count-style-2 odometer odometer-auto-theme" data-count-to="594">
+                            <div class="odometer-inside"><span class="odometer-digit"><span
+                                        class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
+                                            class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">5</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">9</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">4</span></span></span></span></span></div>
+                        </span>
+                        <h4 class="title">Projects Worked</h4>
                     </div>
                 </div>
-                <div class="col mb-6">
-                    <div class="working-process text-center">
-                        <i class="dlicon business_bulb-62"></i>
-                        <h4 class="title">Make Ideas</h4>
+                <div class="col mb-8">
+                    <div class="funfact-2 text-center">
+                        <i class="dlicon users_man-23"></i>
+                        <span class="count-style-2 odometer odometer-auto-theme" data-count-to="100">
+                            <div class="odometer-inside"><span class="odometer-digit"><span
+                                        class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
+                                            class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">1</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">0</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">0</span></span></span></span></span></div>
+                        </span>
+                        <h4 class="title">Expert Workers</h4>
                     </div>
                 </div>
-                <div class="col mb-6">
-                    <div class="working-process text-center">
-                        <i class="dlicon business_hierarchy-54"></i>
-                        <h4 class="title">Development</h4>
+                <div class="col mb-8">
+                    <div class="funfact-2 text-center">
+                        <i class="dlicon emoticons_smile"></i>
+                        <span class="count-style-2 odometer odometer-auto-theme" data-count-to="785">
+                            <div class="odometer-inside"><span class="odometer-digit"><span
+                                        class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
+                                            class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">7</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">8</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">5</span></span></span></span></span></div>
+                        </span>
+                        <h4 class="title">Happy Clients</h4>
                     </div>
                 </div>
-                <div class="col mb-6">
-                    <div class="working-process text-center">
-                        <i class="dlicon business_building"></i>
-                        <h4 class="title">Test & Release</h4>
+                <div class="col mb-8">
+                    <div class="funfact-2 text-center">
+                        <i class="dlicon tech-2_firewall"></i>
+                        <span class="count-style-2 odometer odometer-auto-theme" data-count-to="542">
+                            <div class="odometer-inside"><span class="odometer-digit"><span
+                                        class="odometer-digit-spacer">8</span><span class="odometer-digit-inner"><span
+                                            class="odometer-ribbon"><span class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">5</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">4</span></span></span></span></span><span
+                                    class="odometer-digit"><span class="odometer-digit-spacer">8</span><span
+                                        class="odometer-digit-inner"><span class="odometer-ribbon"><span
+                                                class="odometer-ribbon-inner"><span
+                                                    class="odometer-value">2</span></span></span></span></span></div>
+                        </span>
+                        <h4 class="title">Upcomming Project</h4>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+
     <!-- Project area -->
-    <div id="project" class="section section-padding">
+    <div id="project" class="section my-project">
         <div class="container">
             <div class="section-title text-center mb-lg-8 mb-md-6 mb-4">
-                <h2 class="title">Our <span> Projects</span></h2>
-                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
-                    industry's standard dummy text.</p>
+                <h2 class="title">Our <span> GALLERY</span></h2>
+               
             </div>
             <div class="project-menu-style project-menu-active isotope-btn-add-active mb-6">
                 <button class="active btn-project" data-filter="*">All</button>
@@ -512,25 +492,31 @@
                 <div class="col mb-6 grid-item cat2 cat4">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project1.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project1.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Building</a></span>
-                                <h3 class="title"><a href="project-details.html">Living Room Interior Design</a></h3>
+                                <h3 class="title"><a href="#">Living Room Interior Design</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
                 </div>
+
                 <div class="col mb-6 grid-item cat1">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project2.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project2.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Interior</a></span>
-                                <h3 class="title"><a href="project-details.html">Restaurant Interior Design</a></h3>
+                                <h3 class="title"><a href="#">Restaurant Interior Design</a></h3>
                             </div>
                         </div>
                     </div>
@@ -538,12 +524,14 @@
                 <div class="col mb-6 grid-item cat4">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project3.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project3.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Architecture</a></span>
-                                <h3 class="title"><a href="project-details.html">Bedroom Remodeling </a></h3>
+                                <h3 class="title"><a href="#">Bedroom Remodeling </a></h3>
                             </div>
                         </div>
                     </div>
@@ -551,12 +539,14 @@
                 <div class="col mb-6 grid-item cat3 cat1">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project4.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project4.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Building</a></span>
-                                <h3 class="title"><a href="project-details.html">Window Glass Replacement</a></h3>
+                                <h3 class="title"><a href="#">Window Glass Replacement</a></h3>
                             </div>
                         </div>
                     </div>
@@ -564,12 +554,14 @@
                 <div class="col mb-6 grid-item cat1 cat3">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project5.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project5.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Interior</a></span>
-                                <h3 class="title"><a href="project-details.html">House Painting</a></h3>
+                                <h3 class="title"><a href="#">House Painting</a></h3>
                             </div>
                         </div>
                     </div>
@@ -577,12 +569,14 @@
                 <div class="col mb-6 grid-item cat2 cat4">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project7.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project7.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Interior</a></span>
-                                <h3 class="title"><a href="project-details.html">Bathroom Redesign</a></h3>
+                                <h3 class="title"><a href="#">Bathroom Redesign</a></h3>
                             </div>
                         </div>
                     </div>
@@ -590,12 +584,15 @@
                 <div class="col mb-6 grid-item cat4">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project6.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project6.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Interior</a></span>
-                                <h3 class="title"><a href="project-details.html">Office Room Interior Design</a></h3>
+                                <h3 class="title"><a href="#">Office Room Interior Design</a>
+                                </h3>
                             </div>
                         </div>
                     </div>
@@ -603,12 +600,14 @@
                 <div class="col mb-6 grid-item cat2 cat4">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project8.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project8.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Interior</a></span>
-                                <h3 class="title"><a href="project-details.html">Hardwood Installation</a></h3>
+                                <h3 class="title"><a href="#">Hardwood Installation</a></h3>
                             </div>
                         </div>
                     </div>
@@ -616,106 +615,29 @@
                 <div class="col mb-6 grid-item cat1">
                     <div class="project-wrap">
                         <div class="project-inner">
-                            <a class="thumbnail" href="project-details.html">
+                            <a class="img-zoom" href="assets/img/project9.jpg"><i
+                                    class="dlicon arrows-1_zoom-88"></i></a>
+                            <a class="thumbnail" href="#">
                                 <img src="assets/img/project9.jpg" alt="Blog Image">
                             </a>
                             <div class="project-content">
                                 <span class="category"><a href="#">Interior</a></span>
-                                <h3 class="title"><a href="project-details.html">Restaurant Interior Design</a></h3>
+                                <h3 class="title"><a href="#">Restaurant Interior Design</a></h3>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="project-btn mt-6 mt-md-8 mt-lg-10 text-center">
-                <a href="project.html" class="btn btn-dark btn-hover-primary">MORE PROJECT</a>
-            </div>
-        </div>
-    </div>
-    <!-- Video area -->
-    <div class="section video-banner">
-        <div class="banner-content">
-            <video preload="none" loop="loop" poster="assets/img/videobanner.jpg">
-                <source src="assets/video/video.mp4" type="video/mp4">
-            </video>
-            <div class="status play-pause-style">
-                <i class="fa fa-play"></i>
             </div>
         </div>
     </div>
     <!-- Blog area -->
-    <div id="gallery" class="section section-padding">
-        <div class="container">
-            <div class="section-title text-center mb-lg-9 mb-md-7 mb-5">
-                <h2 class="title"> GALLERY</h2>
-                <h2 class="title"><span>Luxury & Best Interior Design</span></h2>
-                <p>
-                    Our design team creates luxury residences that mirror the owner’s personality, passion and style.
-                    From luxury villas to modern apartments, we bring dreams to life.</p>
-            </div>
-            <div class="blog-active swiper">
-                <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                        <div class="blog-wrap">
-                            <div class="blog-img mb-2">
-                                <a href="blog-details.html"><img src="assets/img/blog.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <ul>
-                                        <li>January 3, 2021 /</li>
-                                        <li><a href="#">Interior</a></li>
-                                    </ul>
-                                </div>
-                                <h3><a href="blog-details.html">This blog provides interior design tips.</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog-wrap">
-                            <div class="blog-img mb-2">
-                                <a href="blog-details.html"><img src="assets/img/blog2.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <ul>
-                                        <li>February 7, 2021 /</li>
-                                        <li><a href="#">Building </a></li>
-                                    </ul>
-                                </div>
-                                <h3><a href="blog-details.html"> Focussed on designing new homes.</a></h3>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="swiper-slide">
-                        <div class="blog-wrap">
-                            <div class="blog-img mb-2">
-                                <a href="blog-details.html"><img src="assets/img/blog3.jpg" alt=""></a>
-                            </div>
-                            <div class="blog-content">
-                                <div class="blog-meta">
-                                    <ul>
-                                        <li>September 5, 2021 /</li>
-                                        <li><a href="#">Architecture</a></li>
-                                    </ul>
-                                </div>
-                                <h3><a href="blog-details.html">Suggest way to decoration work place.</a></h3>
-                            </div>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
     <!-- contect area -->
-    <div id="contact" class="section section-padding">
+    <div id="contact" class="section my-contact">
         <div class="container">
             <div class="section-title text-center mb-lg-9 mb-md-7 mb-5">
                 <h2 class="title">CONTACT <span>US</span></h2>
-                <p>Want to design beautiful interiors – Plan a trip to FINAL STEP INTERIOR DESIGN. See full-sized
-                    models of bespoke furniture, touch luxury through our fabrics and finishes, experience design at its
-                    best</p>
+                <p>Want to design beautiful interiors – Plan a trip to FINAL STEP INTERIOR DESIGN.</p>
             </div>
             <div class="row">
                 <div class="col-lg-5 col-md-6">
@@ -756,12 +678,7 @@
                             </div>
                             <div class="info-content">
                                 <h3 class="title">Follow us</h3>
-                                <div class="social-icon-style mt-4">
-                                    <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                                    <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                    <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a class="behance" href="#"><i class="fa fa-behance"></i></a>
-                                </div>
+                                <p>archive100bc@gmail.com</p>
                             </div>
                         </div>
                     </div>
@@ -783,8 +700,8 @@
     </div>
     <!-- Brand Logo area -->
     <!-- Footer area -->
-    <footer class="section bg-white">
-        <div class="footer-top section-padding">
+    <footer class="section ">
+        <div class="footer-top bg-footer" style="background-image:url(assets/img/bg-banner3.jpg)">
             <div class="container">
                 <div class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 mb-n8">
                     <div class="col mb-8">
@@ -794,10 +711,9 @@
                             </div>
                             <p>Lorem Ipsum is simply dummy text datra of the printing and typesetting industry.</p>
                             <div class="social-icon-style">
-                                <a class="facebook" href="#"><i class="fa fa-facebook"></i></a>
-                                <a class="twitter" href="#"><i class="fa fa-twitter"></i></a>
-                                <a class="google-plus" href="#"><i class="fa fa-google-plus"></i></a>
-                                <a class="behance" href="#"><i class="fa fa-behance"></i></a>
+                                <a class="facebook" href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a class="twitter" href="#"><i class="fa-brands fa-twitter"></i></i></a>
+                                <a class="google-plus" href="#"><i class="fa-brands fa-google-plus-g"></i></a>
                             </div>
                         </div>
                     </div>
@@ -818,15 +734,15 @@
                             <h3 class="footer-title">Contact Us</h3>
                             <ul>
                                 <li>
-                                    <span class="title">T:</span>
+                                    <span class="title"><i class="fa-solid fa-phone-volume"></i></span>
                                     <span class="desc">+91 9999846226</span>
                                 </li>
                                 <li>
-                                    <span class="title">E:</span>
+                                    <span class="title"><i class="fa-solid fa-envelope"></i></span>
                                     <span class="desc">archive100bc@gmail.com<br>archive100bc@gmail.com</span>
                                 </li>
                                 <li>
-                                    <span class="title">A:</span>
+                                    <span class="title"><i class="fa-solid fa-location-dot"></i></span>
                                     <span class="desc">23-A, Sunshine Apartment,Pocket 1. Mayur Viha
                                         ,New Delhi-110096</span>
                                 </li>
@@ -864,13 +780,48 @@
             <div class="container">
                 <div class="copyright text-center">
                     <p>
-                        Copyright ©2023 All rights reserved | Made with <i class="fa fa-heart"></i> by <a
-                            href="https://amarjeet0007.github.io/akdigital/"> Amarjeet </a>.
+                        Copyright ©2013 All rights reserved | Design and Developed by <a href="#">
+                            AK IT Solutions </a>
                     </p>
                 </div>
             </div>
         </div>
     </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Request A Quote By Submitting This Form</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i
+                            class="fa fa-times" aria-hidden="true"></i></button>
+                </div>
+                <div class="modal-body">
+                    <div class="contact-from-wrap popup-from-wrap">
+
+                        <form class="contact_form" method="POST">
+
+                            <input name="name" type="text" placeholder="Name" required="">
+                            <input name="email" type="email" placeholder="Email" required="">
+                            <input name="phone" type="text" placeholder="Phone Number" required="">
+                            <textarea name="message" placeholder="Property Details" required=""></textarea>
+                            <input class="submit" type="submit" onclick="contact_em()" name="submit"
+                                value="Send Message">
+                        </form>
+                        <p class="form-messege"></p>
+                    </div>
+
+
+                </div>
+                <!-- <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div> -->
+            </div>
+        </div>
+    </div>
 
     <!-- JS Vendor, Plugins & Activation Script Files -->
 
@@ -895,6 +846,7 @@
 
     <!-- Activation JS -->
     <script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
